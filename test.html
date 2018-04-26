@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)https://struts.apache.org/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Date-Revision-yyyymmdd" content="20140918">
+  <meta http-equiv="Content-Language" content="en">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Welcome to the Apache Struts project</title>
+
+  <link href="./test_files/css" rel="stylesheet" type="text/css">
+  <link href="./test_files/font-awesome.css" rel="stylesheet">
+  <link href="./test_files/main.css" rel="stylesheet">
+
+  <script src="./test_files/cb=gapi.loaded_1" async=""></script><script src="./test_files/cb=gapi.loaded_0" async=""></script><script id="twitter-wjs" src="./test_files/widgets.js.descarga"></script><script type="text/javascript" async="" src="./test_files/plusone.js.descarga" gapi_processed="true"></script><script id="facebook-jssdk" src="./test_files/all.js.descarga"></script><script src="./test_files/jquery-1.11.0.min.js.descarga"></script><style></style>
+  <script type="text/javascript" src="./test_files/bootstrap.js.descarga"></script>
+  <script type="text/javascript" src="./test_files/community.js.descarga"></script>
+<script type="text/javascript" charset="utf-8" async="" src="./test_files/button.7db838345f9545c91ea4497f64abb814.js.descarga"></script><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_loader{background-color:#f6f7f9;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:18px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;bottom:0;left:0;right:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29487d;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f9;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_customer_chat_bounce_in{animation-duration:250ms;animation-name:fb_bounce_in}.fb_customer_chat_bounce_out{animation-duration:250ms;animation-name:fb_fade_out}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}.fb_mobile_overlay_active{background-color:#fff;height:100%;overflow:hidden;position:fixed;visibility:hidden;width:100%}@keyframes fb_fade_out{from{opacity:1}to{opacity:0}}@keyframes fb_bounce_in{0%{opacity:0;transform:scale(.8, .8);transform-origin:100% 100%}10%{opacity:.1}20%{opacity:.2}30%{opacity:.3}40%{opacity:.4}50%{opacity:.5}60%{opacity:.6}70%{opacity:.7}80%{opacity:.8;transform:scale(1.03, 1.03)}90{opacity:.9}100%{opacity:1;transform:scale(1, 1)}}</style></head>
+<body cz-shortcut-listen="true">
+
+<a href="http://github.com/apache/struts" class="github-ribbon">
+  <img style="position: absolute; right: 0; border: 0;" src="./test_files/forkme_right_red_aa0000.png" alt="Fork me on GitHub">
+</a>
+
+<header>
+  <nav>
+    <div role="navigation" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" data-toggle="collapse" data-target="#struts-menu" class="navbar-toggle">
+            Menu
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="https://struts.apache.org/index.html" class="navbar-brand logo"><img src="./test_files/struts-logo.svg"></a>
+        </div>
+        <div id="struts-menu" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a data-toggle="dropdown" href="https://struts.apache.org/#" class="dropdown-toggle">
+                Home<b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="https://struts.apache.org/index.html">Welcome</a></li>
+                <li><a href="https://struts.apache.org/download.cgi">Download</a></li>
+                <li><a href="https://struts.apache.org/releases.html">Releases</a></li>
+                <li><a href="https://struts.apache.org/announce.html">Announcements</a></li>
+                <li><a href="http://www.apache.org/licenses/">License</a></li>
+                <li><a href="https://www.apache.org/foundation/thanks.html">Thanks!</a></li>
+                <li><a href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a data-toggle="dropdown" href="https://struts.apache.org/#" class="dropdown-toggle">
+                Support<b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="https://struts.apache.org/mail.html">User Mailing List</a></li>
+                <li><a href="https://issues.apache.org/jira/browse/WW">Issue Tracker</a></li>
+                <li><a href="https://struts.apache.org/security.html">Reporting Security Issues</a></li>
+                <li class="divider"></li>
+                <li><a href="https://cwiki.apache.org/confluence/display/WW/Migration+Guide">Version Notes</a></li>
+                <li><a href="https://cwiki.apache.org/confluence/display/WW/Security+Bulletins">Security Bulletins</a></li>
+                <li class="divider"></li>
+                <li><a href="https://struts.apache.org/maven/project-info.html">Maven Project Info</a></li>
+                <li><a href="https://struts.apache.org/maven/struts2-core/dependencies.html">Struts Core Dependencies</a></li>
+                <li><a href="https://struts.apache.org/maven/struts2-plugins/modules.html">Plugin Dependencies</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a data-toggle="dropdown" href="https://struts.apache.org/#" class="dropdown-toggle">
+                Documentation<b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="https://struts.apache.org/birdseye.html">Birds Eye</a></li>
+                <li><a href="https://struts.apache.org/primer.html">Key Technologies</a></li>
+                <li><a href="https://struts.apache.org/kickstart.html">Kickstart FAQ</a></li>
+                <li><a href="https://cwiki.apache.org/confluence/display/WW/Home">Wiki</a></li>
+                <li class="divider"></li>
+                <li><a href="https://struts.apache.org/getting-started/">Getting Started</a></li>
+                <li><a href="https://struts.apache.org/security/">Security Guide</a></li>
+                <li><a href="https://struts.apache.org/core-developers/">Core Developers Guide</a></li>
+                <li><a href="https://struts.apache.org/tag-developers/">Tag Developers Guide</a></li>
+                <li><a href="https://struts.apache.org/maven-archetypes/">Maven Archetypes</a></li>
+                <li><a href="https://struts.apache.org/plugins/">Plugins</a></li>
+                <li><a href="https://struts.apache.org/maven/struts2-core/apidocs/index.html">Struts Core API</a></li>
+                <li><a href="https://struts.apache.org/tag-developers/tag-reference.html">Tag reference</a></li>
+                <li><a href="https://cwiki.apache.org/confluence/display/WW/FAQs">FAQs</a></li>
+                <li><a href="http://cwiki.apache.org/S2PLUGINS/home.html">Plugin registry</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a data-toggle="dropdown" href="https://struts.apache.org/#" class="dropdown-toggle">
+                Contributing<b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="https://struts.apache.org/youatstruts.html">You at Struts</a></li>
+                <li><a href="https://struts.apache.org/helping.html">How to Help FAQ</a></li>
+                <li><a href="https://struts.apache.org/dev-mail.html">Development Lists</a></li>
+                <li class="divider"></li>
+                <li><a href="https://struts.apache.org/submitting-patches.html">Submitting patches</a></li>
+                <li><a href="https://struts.apache.org/builds.html">Source Code and Builds</a></li>
+                <li><a href="https://struts.apache.org/coding-standards.html">Coding standards</a></li>
+                <li><a href="https://cwiki.apache.org/confluence/display/WW/Contributors+Guide">Contributors Guide</a></li>
+                <li class="divider"></li>
+                <li><a href="https://struts.apache.org/release-guidelines.html">Release Guidelines</a></li>
+                <li><a href="https://struts.apache.org/bylaws.html">PMC Charter</a></li>
+                <li><a href="https://struts.apache.org/volunteers.html">Volunteers</a></li>
+                <li><a href="https://gitbox.apache.org/repos/asf?p=struts.git">Source Repository</a></li>
+              </ul>
+            </li>
+            <li class="apache"><a href="http://www.apache.org/"><img src="./test_files/apache.png"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+<article class="container index">
+  <section>
+    <div class="container hero">
+  <div class="jumbotron col-md-12">
+    <h1>Apache Struts</h1>
+    <p>Apache Struts is a free, open-source, MVC framework for creating elegant,
+      modern Java web applications. It favors convention over configuration, is
+      extensible using a plugin architecture, and ships with plugins to support
+      REST, AJAX and JSON.
+    </p>
+    <a href="https://struts.apache.org/download.cgi#struts2516" class="btn btn-primary btn-large">
+      <img src="./test_files/download-icon.svg"> Download
+    </a>
+    <a href="https://struts.apache.org/primer.html" class="btn btn-info btn-large">
+      <img src="./test_files/primer-icon.svg"> Technology Primer
+    </a>
+  </div>
+</div>
+<div class="container important-notes">
+  <div class="col-md-12">
+    <div class="row">
+      <a href="https://www.apache.org/events/current-event.html">
+        <img src="./test_files/current-event-234x60.png" class="center-block">
+      </a>        
+    </div>
+    <div class="row">
+      <div class="column col-md-4">
+        <h2>Google's Patch Reward program</h2>
+        <p>During <a href="http://www.meetup.com/sfhtml5/">SFHTML5</a> Google announced that
+          they extend their program to cover the Apache Struts project as well. Now you can earn
+          money preparing patches for us!
+          <a href="https://struts.apache.org/submitting-patches.html#googles-patch-reward-program">read more</a>
+        </p>
+      </div>
+      <div class="column col-md-4">
+        <h2>Apache Struts 2.5.16 GA</h2>
+        <p>
+          Apache Struts 2.5.16 GA has been released<br>on 16 March 2018.
+        </p>
+        Read more in <a href="https://struts.apache.org/announce.html#a20180316">Announcement</a> or in
+        <a href="https://cwiki.apache.org/confluence/display/WW/Version+Notes+2.5.16">Version notes</a>
+      </div>
+      <div class="column col-md-4">
+        <h2>Apache Struts 2.3.34 GA</h2>
+        <p>
+          It's the latest release of Struts 2.3.x which contains the latest security fixes,
+          read more in <a href="https://struts.apache.org/announce-2017.html#a20170907">Announcement</a> or in
+          <a href="https://struts.apache.org/docs/version-notes-2334.html">Version notes</a>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column col-md-4">
+        <h2>Immediately upgrade commons-fileupload to version 1.3.3</h2>
+        <p>
+          The Apache Struts Team recommends to immediately upgrade your Struts 2
+          based projects to use the latest released version of Commons
+          FileUpload library, which is currently 1.3.3.
+          <a href="https://struts.apache.org/announce.html#a20180323">Announcement</a>
+        </p>
+      </div>
+      <div class="column col-md-4">
+        <h2>Apache Struts Extras GA</h2>
+        <p>
+          The Struts Extras secure Multipart plugins General Availability - versions 1.1, use them to secure your
+          application against critical security vulnerability reported in <a href="https://struts.apache.org/docs/s2-045.html">S2-045</a>,
+          <a href="https://struts.apache.org/docs/s2-046.html">S2-046</a>, read more in <a href="https://struts.apache.org/announce-2017.html#a20170323">Announcement</a>
+          or in <a href="https://github.com/apache/struts-extras">README</a>
+        </p>
+      </div>
+      <div class="column col-md-4">
+        <h2>A crafted XML request can be used to perform a DoS attack when using the Struts REST plugin</h2>
+        <p>
+          The Apache Security Struts Team recommends to immediately upgrade your Struts 2 based projects to use
+          the latest released version of the Apache Struts to prevent possible DoS attack when using the REST plugin.
+          <a href="https://struts.apache.org/announce.html#a20180327">Announcement</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container contact-channels">
+  <div class="col-md-12"><h5>Keep in touch: </h5>
+
+    <div class="channels">
+      <div class="irc-btn">IRC: <a href="irc://irc.freenode.net/struts">#struts</a></div>
+      <div class="facebook-btn">
+        <div data-href="https://www.facebook.com/apachestruts" data-width="250" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true" class="fb-like fb_iframe_widget" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=&amp;container_width=0&amp;href=https%3A%2F%2Fwww.facebook.com%2Fapachestruts&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=false&amp;width=250"><span style="vertical-align: bottom; width: 122px; height: 20px;"><iframe name="f33d9de8cac12c8" width="250px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:like Facebook Social Plugin" src="./test_files/like.html" style="border: none; visibility: visible; width: 122px; height: 20px;" class=""></iframe></span></div>
+      </div>
+      <div class="gplus-btn">
+        <div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; background: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 32px; height: 20px;"><iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 32px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I0_1524729059478" name="I0_1524729059478" src="./test_files/fastbutton.html" data-gapiattached="true" title="G+"></iframe></div>
+      </div>
+      <div class="twitter-btn"><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-follow-button twitter-follow-button-rendered" title="Twitter Follow Button" src="./test_files/follow_button.59df888963e9d6219f6e6c7ff5d8b951.en.html" style="position: static; visibility: visible; width: 163px; height: 20px;" data-screen-name="TheApacheStruts"></iframe></div>
+    </div>
+  </div>
+</div>
+
+  </section>
+</article>
+
+
+<footer class="container">
+  <div class="col-md-12">
+    Copyright © 2000-2018 <a href="http://www.apache.org/">The Apache Software Foundation </a>.
+    All Rights Reserved.
+  </div>
+  <div class="col-md-12">
+    Apache Struts, Struts, Apache, the Apache feather logo, and the Apache Struts project logos are
+    trademarks of The Apache Software Foundation.
+  </div>
+  <div class="col-md-12">Logo and website design donated by <a href="https://softwaremill.com/">SoftwareMill</a>.</div>
+</footer>
+
+<script>!function (d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (!d.getElementById(id)) {
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }
+}(document, "script", "twitter-wjs");</script>
+<script src="./test_files/platform.js.descarga" async="async" defer="defer" gapi_processed="true"></script>
+
+<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="./test_files/JW5GlLnAsFw.html" style="border: none;"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+
+<script>(function (d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+<iframe name="oauth2relay790960438" id="oauth2relay790960438" src="./test_files/postmessageRelay.html" tabindex="-1" aria-hidden="true" style="width: 1px; height: 1px; position: absolute; top: -100px;"></iframe><iframe scrolling="no" frameborder="0" allowtransparency="true" src="./test_files/widget_iframe.59df888963e9d6219f6e6c7ff5d8b951.html" style="display: none;"></iframe><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe" src="./test_files/saved_resource.html"></iframe></body></html>

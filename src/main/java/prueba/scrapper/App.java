@@ -50,7 +50,9 @@ public class App
         {
         }
    
-        
+        File input = new File("test.html");
+        Document doc2 = Jsoup.parse(input, "UTF-8", "http://example.com/");
+        System.out.println(doc2.title());
     	
     /*	File input = new File("C:/Users/Yo/Desktop/supermercado2.html");
     	Document doc = Jsoup.parse(input, "UTF-8", "https://www.carritus.com/producto/15231818-coca-cola-normal");*/
